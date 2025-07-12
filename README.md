@@ -28,5 +28,5 @@
 </style>
 
 <div class="logo">SHYMU</div>
-<div class="tagline">AiPA™ — Your Personal Assistant Powered by AI</div>
+<div class="tagline">AiPA™ – Artificial Intelligence + Personal Assistant</div>
 <a href="https://shymu.com/waitlist.html" class="button">Join the Waitlist</a>
