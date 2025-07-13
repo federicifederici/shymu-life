@@ -3,14 +3,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SHYMU – AiPA</title>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=DM+Sans:wght@700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'Outfit', sans-serif;
-      background: radial-gradient(circle at 20% 30%, rgba(255, 0, 128, 0.25), transparent 40%),
-                  radial-gradient(circle at 80% 70%, rgba(0, 255, 255, 0.2), transparent 50%),
-                  linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      background: url('https://files.oaiusercontent.com/file-00000000c6d861fd984ce70cb1b422b8/A_digital_graphic_promotional_image_for_a_technolo.png') no-repeat center center fixed;
+      background-size: cover;
       color: #ffffff;
       line-height: 1.6;
       overflow-x: hidden;
@@ -21,17 +20,29 @@
 }
 
 header {
-  padding: 2rem 1rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 1rem 2rem;
   text-align: center;
 }
 
+.logo-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
 .tagline {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: #ccc;
+  margin-top: 0.25rem;
 }
 
 .hero, .section {
-  padding: 3rem 1rem;
+  padding: 6rem 1rem 3rem;
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
@@ -39,7 +50,7 @@ header {
 
 .hero p, .section p {
   font-size: 1.5rem;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.05);
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.15);
 }
 
 .hero p.gradient, .section h2.gradient {
@@ -79,20 +90,10 @@ footer {
   color: #999;
 }
 
-.background-decor {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  pointer-events: none;
-}
-
   </style>
 </head>
-<body>  <div class="background-decor"></div>  <header>
-    <h1 class="gradient">SHYMU</h1>
+<body>  <header>
+    <h1 class="logo-title">SHYMU</h1>
     <p class="tagline">AiPA – AI Personal Assistant</p>
   </header>  <section class="hero">
     <p class="gradient">It won’t just know <em>what</em> you want.<br>
